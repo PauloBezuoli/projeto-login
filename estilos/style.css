@@ -5,3 +5,34 @@
     Verde: #49a09d
     Lilás: #5f2c82
 */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #5f2c82;
+}
+
+div > img {
+    max-width: 290x;
+    display: block;
+    margin: auto;
+}
+
+div#formulario>h1 {
+    text-align: center;
+    padding: 10px;
+    padding: 10px;
+}
+
+div#formulario {
+    max-width: 250px;
+    text-align: justify;
+    padding: 5px;
+    margin: auto;
+    background-color: white;
+    border-radius: 0px 00px 15px 15px;
+}
