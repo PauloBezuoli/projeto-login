@@ -9,11 +9,20 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
 }
 
-body {
+body, html {
     background-color: #5f2c82;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
 }
 
 div > img {
@@ -22,17 +31,27 @@ div > img {
     margin: auto;
 }
 
-div#formulario>h1 {
-    text-align: center;
-    padding: 10px;
-    padding: 10px;
+section#login {
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.500);
 }
 
-div#formulario {
-    max-width: 250px;
-    text-align: justify;
-    padding: 5px;
-    margin: auto;
-    background-color: white;
-    border-radius: 0px 00px 15px 15px;
+section#login > div#imagem {
+    display: block;
+    background: #5f2c82 url(../imagens/pexels-bruno-thethe-2747596.jpg) no-repeat;
+    height: 200px;
+    background-size: cover;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
 }
